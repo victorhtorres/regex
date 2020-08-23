@@ -1,8 +1,8 @@
 # Regex
 
-Operaciones con expresiones regulares.
+Referencias sobre expresiones regulares.
 
-## Operaciones
+## Caracteres de búsqueda
 
 | Operación | Descripción |
 | ----- | ---- |
