@@ -29,4 +29,4 @@ Operaciones con expresiones regulares.
 | `^` | Indica el inicio de una línea. |
 | `$` | Indica el final de una línea. |
 | `^$` | La combinación de los caracteres inicio y fin el cual abarquen una expresión regular, ayuda a filtrar las líneas completas que no cumplan con la expresión definida. |
-| `(XYZ)` | Los paréntesis agrupan expresiones regulares y son útiles para definir un patrón de repetición, ejemplo: `^(\d{2,2}\s?){3}$`. La regex anterior, encuentra 3 pares de números separados por un espacio entre ellos: `23 34 56`. Si paréntesis, la regex quedaría: `^\d{2,2}\s\d{2,2}\s\d{2,2}$` |
+| `(XYZ)` | Los paréntesis agrupan expresiones regulares y son útiles para definir un patrón de repetición, ejemplo: `^(\d{2,2}\s?){3}$`. La regex anterior, encuentra 3 pares de números separados por un espacio entre ellos: `23 34 56`. Sin paréntesis, la regex quedaría: `^\d{2,2}\s\d{2,2}\s\d{2,2}$`. Adicionalmente, sirve para realizar reemplazos, obteniendo el match que hay dentro del paréntesis y colocándolo en una nueva cadena de información, haciendo uso de variables como $1, $2, etc... |
